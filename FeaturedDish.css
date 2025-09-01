@@ -1,0 +1,41 @@
+.featured-dish {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.dish-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.dish-info {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.dish-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.dish-info span {
+  font-weight: bold;
+  color: #ff5722;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.order-btn {
+  margin-top: 1rem;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
